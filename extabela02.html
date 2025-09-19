@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 30px;
+    }
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 80%;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    caption {
+      font-size: 1.5em;
+      margin-bottom: 15px;
+      font-weight: bold;
+      color: #000000;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    thead th {
+      background-color: #807d5b;
+      color: #333;
+    }
+    tfoot td {
+      background-color: #7b8260;
+      font-weight: bold;
+      color: #222;
+    }
+    tbody td {
+      color: #555;
+    }
+    td img {
+      max-width: 80px;
+      height: auto;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Cardápio do Restaurante</h1>
+
+  <table>
+    <caption>Pratos e Preços</caption>
+    <thead>
+      <tr>
+        <th>Imagem</th>
+        <th>Prato</th>
+        <th>Descrição</th>
+        <th>Preço (R$)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img src="Imagens/feijoada.jpeg" alt="Feijoada"></td>
+        <td>Feijoada</td>
+        <td>Feijão preto com carne</td>
+        <td>25,00</td>
+      </tr>
+      <tr>
+        <td><img src="Imagens/strogonoff.jpg" alt="Strogonoff"></td>
+        <td>Strogonoff</td>
+        <td>Carne ao molho cremoso servido com arroz</td>
+        <td>22,50</td>
+      </tr>
+      <tr>
+        <td><img src="Imagens/bowl.jpg" alt="Bowl"></td>
+        <td>Bowl</td>
+        <td>Folhas frescas, legumes, grãos, proteínas e molhos especiais da casa</td>
+        <td>18,00</td>
+      </tr>
+      <tr>
+        <td><img src="Imagens/pizza.jpg" alt="Pizza Margherita"></td>
+        <td>Pizza Marguerita</td>
+        <td>Mussarela, tomate e manjericão</td>
+        <td>20,00</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">Preço médio</td>
+        <td>21,38</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
